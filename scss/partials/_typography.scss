@@ -1,0 +1,91 @@
+html {
+	font-size: $base-font-size;
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+	font-family: $font-family;
+	line-height: $base-line-height;
+	font-weight: 400;
+	color: $base-color;
+}
+
+a {
+	position: relative;
+	color: $base-color;
+	text-decoration: none;
+	padding-bottom: $space-1/2;
+	border-bottom: 2px solid $mint;
+	transition: ease 1s;
+}
+
+a:hover {
+	transition: ease 0.2s;
+	border-color: $black;
+}
+
+p a {
+	padding-bottom: $space-1/4;
+}
+
+
+h1, .h1 {
+	font-size: 5.555rem;
+	line-height: 5.555rem;
+	font-weight: 700;
+}
+
+.h1-display {
+	position: relative;
+	left: -2%;
+	width: 104%;
+	line-height: normal;
+}
+
+h2, .h2 {
+	font-size: 1.555rem;
+	line-height: 2.333rem;
+	font-weight: 300;
+}
+
+.h2-display {
+	font-size: 4rem;
+	font-size: 4rem;
+	font-weight: 300;
+}
+
+h3, .h3 {
+	font-size: 1.555rem;
+	line-height: 2.333rem;
+	font-weight: 700;
+}
+
+h4, .h4 {
+	font-size: 1.16rem;
+	line-height: 2.333rem;
+	font-weight: 700;
+}
+
+h5, .h5 {
+	font-size: 0.777rem;
+	line-height: 1rem;
+	font-weight: 700;
+}
+
+::-moz-selection { background: $mint; }
+::selection { background: $mint; }
+
+.light { font-weight: 300; }
+.regular { font-weight: 400; }
+.bold, .strong, b, strong { font-weight: 700; }
+
+.italic, i, em { font-style: italic; }
+
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+
+.text-uppercase { text-transform: uppercase; }
+.text-underline { text-decoration: underline; }
+
+.nowrap { white-space: nowrap; }

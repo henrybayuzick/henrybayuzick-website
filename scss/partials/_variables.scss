@@ -1,0 +1,30 @@
+// Colors
+$black: #010101;
+$mint: #A1EFB6;
+
+// Typography 
+$font-family: "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", Helvetica, Arial, sans-serif;
+$base-font-size: 18px;
+$base-line-height: 1.5;
+$base-color: $black;
+
+// Layout
+$container-width: 95%;
+$container-sm-width: 95%;
+$container-max-width: 700px;
+
+$breakpoint-xs: '(max-width: 30em)';
+$breakpoint-sm: '(min-width: 40em)';
+$breakpoint-md: '(min-width: 52em)';
+$breakpoint-lg: '(min-width: 64em)';
+$breakpoint-xl: '(min-width: 90em)';
+
+$space-1: .5rem;
+$space-2: 1rem;
+$space-3: 2rem;
+$space-4: 4rem;
+$space-5: 4.5rem;
+
+$border-width: 2px;
+$border-radius: 0px;
+$border-color: inherit;
